@@ -1,0 +1,15 @@
+[submodule "RCES"]
+	path = RCES
+	url = https://github.com/dithpri/RCES.git
+[submodule "NS"]
+	path = NS
+	url = https://github.com/jmikk/NS.git
+[submodule "gotIssues"]
+	path = gotIssues
+	url = https://github.com/jmikk/gotIssues.git
+[submodule "sitethiefs-ns-scripts"]
+	path = sitethiefs-ns-scripts
+	url = https://github.com/Sitethief/sitethiefs-ns-scripts.git
+[submodule "ns-transfer-cleanup"]
+	path = ns-transfer-cleanup
+	url = https://github.com/abrow425/ns-transfer-cleanup.git
