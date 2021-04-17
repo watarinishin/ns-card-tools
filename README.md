@@ -48,8 +48,8 @@ Just open a pull request. Please add any script that you know but isn't listed h
 ## How to install and run a script
 
 This repository contains two kinds of scripts:
-- Tampermonkey userscripts (`.js` in filename): These are scripts contained in the [userscripts](https://github.com/watarinishin/CardScripts/tree/master/userscripts) directory. They are made to be run *in* a browser using [Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/) or similar browser extensions such [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/). They directly modify the NationStates web pages to your liking.
-- Python scripts (`.py` in filename): These are scripts contained in the remaining part of the repository. They run outside of your browser like a regular application. They need the [Python interpreter](https://www.python.org/downloads/) in order to run.
+- Tampermonkey userscripts (`.js` in filename): They are made to be run *in* a browser using [Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/) or similar browser extensions such [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/). They directly modify the NationStates web pages to your liking.
+- Python scripts (`.py` in filename): These are scripts contained in the remaining part of the repository. They run outside of your browser like a regular application. They need [Python](https://www.python.org/downloads/) in order to run.
 
 <details>
   <summary>How to install a Tampermonkey script</summary>
