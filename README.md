@@ -161,5 +161,5 @@ Scripts that provide information about cards.
 
 Modified version of some scripts.
 
-* [Card Queue](Custom/Card%20Queue.user.js) ([Install](raw/master/Custom/Card%20Queue.user.js)): Add cards into queue and step over each of them by pressing `N`. Used for processing many cards. Modified to work with Key code short cuts.
-* [Key code short cuts (queue support)](Custom/Key%20code%20short%20cuts%20(queue%20support).user.js) ([Install](raw/master/Custom/Key%20code%20short%20cuts%20(queue%20support).user.js)): Modified version of 9003's keybind script with key for card queue adding.
+* [Card Queue](Custom/Card%20Queue.user.js) ([Install](https://github.com/watarinishin/NSCardTools/raw/master/Custom/Card%20Queue.user.js)): Add cards into queue and step over each of them by pressing `N`. Used for processing many cards. Modified to work with Key code short cuts.
+* [Key code short cuts (queue support)](Custom/Key%20code%20short%20cuts%20(queue%20support).user.js) ([Install](https://github.com/watarinishin/NSCardTools/raw/master/Custom/Key%20code%20short%20cuts%20(queue%20support).user.js)): Modified version of 9003's keybind script with key for card queue adding.
