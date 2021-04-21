@@ -4,7 +4,7 @@
 // @description  mousetrap keybinds for card page with shortcut for card queue
 // @author       dithpri, 9003, card queue key by USoVietnam
 // @noframes
-// @updateURL    https://github.com/jmikk/NS/raw/master/Key%20code%20short%20cuts.user.js
+// @updateURL    https://github.com/watarinishin/NSCardTools/raw/master/Custom/Key%20code%20short%20cuts%20(queue%20support).user.js
 // @match        https://www.nationstates.net/*page=deck*card=*
 // @match        https://www.nationstates.net/page=deck
 // @match        https://www.nationstates.net*

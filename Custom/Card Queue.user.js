@@ -4,6 +4,7 @@
 // @version      1.2.2
 // @description  A queue to put the url of cards from packs and load them later from another card, now also able to add cards from the query page and the advanced query page, and with the option to go to different parts of the page
 // @author       Anozia
+// @updateURL    https://github.com/watarinishin/NSCardTools/raw/master/Custom/Card%20Queue.user.js
 // @contributors Racoda, DGES, Sitethief, borromeanWhyKnot (y0), USoVietnam (Key code short cuts support)
 // @include      *azure.nsr3n.info/card_queries/*
 // @include      *www.nationstates.net/*
