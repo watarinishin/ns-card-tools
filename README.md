@@ -80,13 +80,15 @@ Click on a script will open the script editor so you can modify the script to yo
 **Step 2:** To run a Python script, just double-click the file as if you run any other application. If double-clicking doesn't work, right-click the file and choose `Open With` > `Python`.
 </details>
 
+---
+
 ## What scripts to install
 
 **Must have:**
 - [Issue answering scripts](#issues-answering)
-- [Key Code Short cuts](NS/Key%20code%20short%20cuts.user.js)
+- [Key Code Short cuts](https://github.com/jmikk/NS/blob/master/Key%20code%20short%20cuts.user.js)
 - [GoldenRetriever](https://dithpri.github.io/goldretriever-web/build/index.html)
-- [ns-transfer-cleanup](ns-transfer-cleanup)
+- [ns-transfer-cleanup](https://github.com/abrow425/ns-transfer-cleanup)
 
 Pick one of the issue answering scripts. They work with the [Containerise](https://www.nationstates.net/page=dispatch/id=1383002) extension and make switching and answering hundreds of issues on hundreds of puppets effortless. Don't even think of farming if you don't have one of these two bad bois installed! (gotIssues is a faster way than the other but it involves more setup)
 
@@ -97,17 +99,22 @@ The fourth script outputs deck value, banks,... of your puppets so you can know 
 The final one helps you send transfer cards you used back to your main nation automatically.
 
 **If you are an avid trader:**
-- [Auction Utilities](#auction-utilities)
+* [Card Default Prices](https://github.com/dithpri/RCES#card-default-prices)
+* [Universal Member Highlighter](https://github.com/dithpri/RCES#universal-member-highlighter)
+* [Main Auction Displayer](https://github.com/dithpri/RCES#main-auction-displayer)
+* [Card Queue](Custom/Card%20Queue.user.js)
 
-Installed all of these will provide you the full suite of tools to properly conduct trading. They provide default price settings, card organization membership highlight, and puppetmaster identification so you know who you are trading with to negotiate with them and price your cards accordingly. The Card Queue script provides a queue feature to add important cards into a queue for later processing. (Such as trading)
+Installed all of these will provide you the full suite of tools to properly conduct trading. They provide default price settings, card organization membership highlight, and puppetmaster identification so you know who you are trading with to negotiate with them and price your cards accordingly. The Card Queue script provides a queue feature to add important cards into a queue for later processing. (Such as placing asks)
 
 **If you are a collector:**
-- [Region Highlighter](sitethiefs-ns-scripts/region-highlighter/region-highlighter.js)
+- [Region Highlighter](https://github.com/Sitethief/sitethiefs-ns-scripts/blob/develop/region-highlighter/region-highlighter.js)
 - [r3n's Card Query](https://azure.nsr3n.info/card_queries/submit.sh) ([Advanced version](https://azure.nsr3n.info/card_queries/submit_advanced.sh))
 
 The first script highlights cards that belong to configured regions and blocks accidental junking if you want. Useful for those who collect cards of specific regions.
 
 The second web tool outputs cards with configured properties such as season, region, name, ownership,... and can filter out cards that have been bid on. Used to know what cards to collect.
+
+---
 
 ## Description of all utilities
 
@@ -115,17 +122,17 @@ The second web tool outputs cards with configured properties such as season, reg
 
 Scripts to help answering issues faster.
 
-* [Issue answering shortcuts](RCES/userscripts/issue_answering) - RCES: Includes NSIssueOpener, NSIssueCompactorRand, NsDilemmaAutoClose, NsDilemmaAutoCloseAll. Answer issues by clicking enter repeatly.
-* [gotIssues](gotIssues) - 9003: Generate a sheet of issue answering links for you to mindlessly spam enter. The fastest method to answer issues as of now.
+* [Issue answering shortcuts](https://github.com/dithpri/RCES#issue-answering-scripts) - RCES: Includes NSIssueOpener, NSIssueCompactorRand, NsDilemmaAutoClose, NsDilemmaAutoCloseAll. Answer issues by clicking enter repeatedly.
+* [gotIssues](https://github.com/jmikk/gotIssues) - 9003: Generate a sheet of issue answering links for you to mindlessly spam enter. The fastest method to answer issues as of now.
 
 ### Auction utilities
 
 Scripts to assist placing asks, bids, auctioning,...
 
-* [Card Default Prices](RCES/userscripts/auction/Card%20Default%20Prices.user.js) - RCES: Automatically set configured default price when placing asks and bids.
-* Card organization highlighter - RCES: Highlight an asker or bidder with membership in [TNP Card Guild](RCES/userscripts/auction/Guildies%20Auction%20Highlighter%20UwU.user.js), [Gardener Card Society](RCES/userscripts/auction/Gardener%20Highlighter.user.js), [NASPAQ](RCES/userscripts/auction/NASPAQ%20Highlighter.user.js).
-* [Main Auction Displayer](RCES/userscripts/auction/Main%20Auction%20Displayer.user.js) - RCES: Display puppetmaster name.
-* [Region Highlighter](sitethiefs-ns-scripts/region-highlighter/region-highlighter.js) - [Sitethief](https://github.com/Sitethief): Highlight cards that belong to configured regions.
+* [Card Default Prices](https://github.com/dithpri/RCES#card-default-prices) - RCES: Automatically set configured default price when placing asks and bids.
+* [Universal Member Highlighter](https://github.com/dithpri/RCES#universal-member-highlighter) - RCES: Display card organizations that a trader belongs to.
+* [Main Auction Displayer](https://github.com/dithpri/RCES#main-auction-displayer) - RCES: Display puppetmaster name.
+* [Region Highlighter](https://github.com/Sitethief/sitethiefs-ns-scripts/blob/develop/region-highlighter/region-highlighter.js) - [Sitethief](https://github.com/Sitethief): Highlight cards that belong to configured regions.
 * [The-Price-is-right](https://github.com/jmikk/The-Price-is-right-) - 9003: Report close asks and bids so you can adjust the prices to match.
 * [Card Queue](Custom/Card%20Queue.user.js) - Multiple authors: Add cards into queue and step over each of them by pressing `N`. Used for processing many cards. Modified to work with Key code short cuts.
 
@@ -133,26 +140,26 @@ Scripts to assist placing asks, bids, auctioning,...
 
 Scripts to create and manage puppets.
 
-* [Puppet links sheet](RCES/puppet_links_sheet) - RCES: Generate an HTML sheet of your puppets with convenient access links.
-* [Puppet Creation Assistant](RCES/userscripts/miscellaneous/NsPuppetCreateAssist.user.js) - RCES: Help create puppets from puppet sheet.
+* [Puppet links sheet](https://github.com/dithpri/RCES#puppet-links-sheet) - RCES: Generate an HTML sheet of your puppets with convenient access links.
+* [Puppet Creation Assistant](https://github.com/dithpri/RCES#puppet-creation-assistant) - RCES: Help create puppets from puppet sheet.
 * [goldretriever-web](https://dithpri.github.io/goldretriever-web/build/index.html) - RCES: Web-based autologin and card stats (e.g. banks, deck information) tool for puppets.
-* [ns-transfer-cleanup](ns-transfer-cleanup) - [SherpDaWerp](https://github.com/abrow425): Gift mass copy cards back to main nation after a transfer.
+* [ns-transfer-cleanup](https://github.com/abrow425/ns-transfer-cleanup) - [SherpDaWerp](https://github.com/abrow425): Gift mass copy cards back to main nation after a transfer.
 
 ### Card information
 
 Scripts that provide information about cards.
 
-* [Owner report](RCES/owner_report) - RCES: Provide ownership data of cards.
-* [Card Query](https://azure.nsr3n.info/card_queries/submit.sh) ([Advanced version](https://azure.nsr3n.info/card_queries/submit_advanced.sh))- r3n: It queries cards of defined rarities, regions, badges, askers, bidders,... Useful for both region and season collectors.
+* [Owner report](https://github.com/dithpri/RCES#owner-report) - RCES: Provide ownership data of cards.
+* [Card Query](https://azure.nsr3n.info/card_queries/submit.sh) ([Advanced version](https://azure.nsr3n.info/card_queries/submit_advanced.sh)) - r3n: It queries cards of defined rarities, regions, badges, askers, bidders,... Useful for both region and season collectors.
 
 ### UI/UX
 
-* [Key code short cuts](NS/Key%20code%20short%20cuts.user.js) - 9003: Keybindings for auction and other pages where it may be useful. Press `X` to view all available keys and configurations.
-* [Cards Icon / Deck page link](RCES/userscripts/miscellaneous/cards-icon.user.js) - RCES: Add card and deck page icon on NS interface.
+* [Key code short cuts](https://github.com/jmikk/NS/blob/master/Key%20code%20short%20cuts.user.js) - 9003: Keybindings for auction and other pages where it may be useful. Press `X` to view all available keys and configurations.
+* [Cards Icon / Deck page link](https://github.com/dithpri/RCES#cards-icon--deck-page-link) - RCES: Add card and deck page icon on NS interface.
 
 ### [Custom](custom)
 
 Modified version of some scripts.
 
-* [Card Queue](Custom/Card%20Queue.user.js): Add cards into queue and step over each of them by pressing `N`. Used for processing many cards. Modified to work with Key code short cuts.
-* [Key code short cuts (queue support)](Custom/Key%20code%20short%20cuts%20(queue%20support).user.js): Modified version of 9003's keybind script with key for card queue adding.
+* [Card Queue](Custom/Card%20Queue.user.js) ([Install](raw/master/Custom/Card%20Queue.user.js)): Add cards into queue and step over each of them by pressing `N`. Used for processing many cards. Modified to work with Key code short cuts.
+* [Key code short cuts (queue support)](Custom/Key%20code%20short%20cuts%20(queue%20support).user.js) ([Install](raw/master/Custom/Key%20code%20short%20cuts%20(queue%20support).user.js)): Modified version of 9003's keybind script with key for card queue adding.
